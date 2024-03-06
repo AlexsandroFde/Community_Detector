@@ -2,7 +2,7 @@ from src.detection.detect_communities import detect_communities
 from src.file_reader import file_reader
 
 def main():
-    file_path = input("Informe o nome do arquivo com os dados: ")
+    file_path = input("Informe o caminho do arquivo com os dados: ")
 
     graph = file_reader(file_path)
 
